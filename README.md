@@ -25,8 +25,8 @@ This is a Streamlit-based application that generates a book title based on your 
 
 1. Clone the repository:
 
-   git clone https://github.com/your-username/book-title-generator.git
-   cd book-title-generator
+  - git clone https://github.com/your-username/book-title-generator.git
+   - cd book-title-generator
    
 2. Install the required dependencies:
 
