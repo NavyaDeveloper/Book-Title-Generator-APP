@@ -30,33 +30,33 @@ This is a Streamlit-based application that generates a book title based on your 
    
 2. Install the required dependencies:
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 3. Set up your Groq API key:
 
-Create a .env file in the root directory:
-Add your API key to the .env file:
+   Create a .env file in the root directory:
+   Add your API key to the .env file:
 
-GROQ_API_KEY=your_groq_api_key_here
+      GROQ_API_KEY=your_groq_api_key_here
 
 4. Running the Application
 
-streamlit run app.py
+    streamlit run app.py
 
 5. Open your browser and go to http://localhost:8501 to access the application.
-
-Usage
+================================================================================================
+## Usage
 
 Enter your idea in the text area (in both English and your specified language).
 Specify the language in which you want the book title.
 Click "Generate Book Title" and get your creative book title in seconds!
 
-Example
+## Example
 Input Idea: "A mystery novel about finding hidden treasures."
 Language: "Spanish"
 Generated Title: "El Misterio de los Tesoros Ocultos"
 
-Project Structure
+## Project Structure
 
 book-title-generator/
 │
@@ -65,15 +65,15 @@ book-title-generator/
 ├── requirements.txt     # Project dependencies
 └── README.md            # Project documentation
 
-Built With
+## Built With
 
 Streamlit - The framework used for building the user interface.
 Groq API - The AI service for generating book titles.
 
-Contributing
+## Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
 
-Acknowledgments
+## Acknowledgments
 Special thanks to the Streamlit and Groq teams for their awesome tools.
 
 This file provides clear and comprehensive instructions for setting up, running, and contributing to the project. The project structure and example usage are also included for better understanding.
